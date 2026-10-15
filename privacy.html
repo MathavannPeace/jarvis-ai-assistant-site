@@ -3,50 +3,276 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Datenschutzerklärung für Jarvis AI Assistant">
     <title>Datenschutz – Jarvis AI Assistant</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="container">
-        <h1>Datenschutzerklärung</h1>
+<main class="container">
+
+    <h1>Datenschutzerklärung</h1>
+
+    <p>
+        Stand: Oktober 2026
+    </p>
+
+    <section>
+        <h2>1. Verantwortlicher und Kontakt</h2>
 
         <p>
-            Diese Seite informiert über die geplante
-            Datenverarbeitung durch Jarvis AI Assistant.
+            Jarvis AI Assistant ist ein privat betriebener,
+            selbst gehosteter KI-Assistent.
         </p>
 
-        <section>
-            <h2>Google-Dienste</h2>
-            <p>
-                Jarvis verwendet nach ausdrücklicher Autorisierung
-                Google Gmail und Google Kalender, um E-Mails
-                und Kalenderinformationen für den autorisierten
-                Nutzer bereitzustellen.
-            </p>
-        </section>
+        <p>
+            Kontakt für Datenschutzanfragen:
+            <a href="mailto:jarvisassistant-privacy@yahoo.com">
+                jarvisassistant-privacy@yahoo.com
+            </a>
+        </p>
+    </section>
 
-        <section>
-            <h2>Datenverarbeitung</h2>
-            <p>
-                Jarvis wird privat betrieben.
-                Die konkrete Verarbeitung und Speicherung
-                von Google-Daten wird vor der produktiven
-                OAuth-Freigabe dokumentiert.
-            </p>
-        </section>
+    <section>
+        <h2>2. Zweck der Anwendung</h2>
 
-        <section>
-            <h2>Widerruf</h2>
-            <p>
-                Nutzer können erteilte Google-Zugriffsberechtigungen
-                über die Sicherheitseinstellungen ihres
-                Google-Kontos widerrufen.
-            </p>
-        </section>
+        <p>
+            Jarvis unterstützt den autorisierten Nutzer bei
+            der Organisation persönlicher Informationen,
+            der Überwachung von IT-Systemen und der
+            Automatisierung wiederkehrender Aufgaben.
+        </p>
 
-        <footer>
-            <a href="index.html">Zurück zur Startseite</a>
-        </footer>
-    </main>
+        <p>
+            Die Google-Integration dient der Erstellung
+            persönlicher Zusammenfassungen, der Erkennung
+            wichtiger E-Mails und der Bereitstellung
+            von Kalendererinnerungen.
+        </p>
+    </section>
+
+    <section>
+        <h2>3. Zugriff auf Google-Daten</h2>
+
+        <p>
+            Die Anwendung verwendet ausschließlich
+            lesende Google-OAuth-Berechtigungen.
+        </p>
+
+        <h3>Gmail</h3>
+
+        <p>
+            Verwendete Berechtigung:
+            <code>gmail.readonly</code>
+        </p>
+
+        <p>
+            Jarvis verarbeitet insbesondere Absender,
+            Betreff, Datum und kurze Auszüge
+            ungelesener E-Mails.
+        </p>
+
+        <p>
+            Für ausgewählte, als relevant erkannte E-Mails
+            kann zusätzlich ein begrenzter Teil
+            des Nachrichtentextes verarbeitet werden,
+            um eine Zusammenfassung zu erstellen.
+        </p>
+
+        <h3>Google Kalender</h3>
+
+        <p>
+            Verwendete Berechtigung:
+            <code>calendar.readonly</code>
+        </p>
+
+        <p>
+            Jarvis verarbeitet Termintitel sowie
+            Beginn und Ende von Kalenderereignissen,
+            um Tagesübersichten und Erinnerungen
+            bereitzustellen.
+        </p>
+
+        <p>
+            Jarvis sendet, verändert oder löscht
+            keine E-Mails oder Kalendertermine.
+        </p>
+    </section>
+
+    <section>
+        <h2>4. Verarbeitung durch KI</h2>
+
+        <p>
+            Zur Zusammenfassung ausgewählter E-Mails
+            verwendet Jarvis eine Ollama-Schnittstelle.
+        </p>
+
+        <p>
+            Der aktuell konfigurierte Ollama-Endpunkt
+            befindet sich auf dem lokalen System.
+            Die Anwendung ist nicht unmittelbar
+            mit einer externen KI-API verbunden.
+        </p>
+
+        <p>
+            Eine Verarbeitung durch externe Dienste
+            hängt auch von der Konfiguration und
+            dem tatsächlich verwendeten Modell ab.
+        </p>
+    </section>
+
+    <section>
+        <h2>5. Telegram-Benachrichtigungen</h2>
+
+        <p>
+            Jarvis verwendet Telegram, um dem
+            autorisierten Nutzer Benachrichtigungen,
+            Zusammenfassungen und Erinnerungen
+            bereitzustellen.
+        </p>
+
+        <p>
+            Dabei können beispielsweise E-Mail-Betreff,
+            Absender, kurze Nachrichtenauszüge,
+            KI-Zusammenfassungen sowie Termintitel
+            und Terminzeiten übertragen werden.
+        </p>
+
+        <p>
+            Diese Informationen werden über die
+            Infrastruktur von Telegram verarbeitet.
+            Telegram-Bot-Chats bieten keine
+            Ende-zu-Ende-Verschlüsselung.
+        </p>
+    </section>
+
+    <section>
+        <h2>6. Lokale Speicherung</h2>
+
+        <p>
+            Jarvis speichert OAuth-Zugangstokens
+            und bestimmte Benachrichtigungsinformationen
+            lokal auf dem System des Betreibers.
+        </p>
+
+        <p>
+            Dazu können E-Mail-Betreffzeilen,
+            Absender, kurze Nachrichtenauszüge,
+            Termintitel, Zeitangaben und
+            technische Nachrichtenkennungen gehören.
+        </p>
+
+        <p>
+            Für den Benachrichtigungsverlauf ist
+            standardmäßig eine automatische Bereinigung
+            nach 30 Tagen vorgesehen.
+            Diese Frist kann durch die lokale
+            Konfiguration beeinflusst werden.
+        </p>
+
+        <p>
+            Andere Benachrichtigungseinträge und
+            technische Zustandsinformationen werden
+            derzeit nicht in allen Fällen
+            automatisch gelöscht.
+        </p>
+
+        <p>
+            Vollständige E-Mail-Texte,
+            KI-Zusammenfassungen und Kalenderlisten
+            werden durch die untersuchten Funktionen
+            nicht dauerhaft in den lokalen
+            Jarvis-Datenbanken gespeichert.
+        </p>
+    </section>
+
+    <section>
+        <h2>7. Widerruf und Löschung</h2>
+
+        <p>
+            Die Google-Zugriffsberechtigung kann
+            jederzeit im Google-Konto unter
+            den Einstellungen für Drittanbieter-Apps
+            widerrufen werden.
+        </p>
+
+        <p>
+            Nach einem Widerruf kann Jarvis
+            nicht mehr mit der widerrufenen
+            Berechtigung auf Google-Daten zugreifen.
+        </p>
+
+        <p>
+            Bereits lokal gespeicherte Tokens,
+            Benachrichtigungen und Sicherungskopien
+            werden dadurch nicht automatisch gelöscht.
+            Ihre Entfernung erfolgt separat
+            durch den Betreiber.
+        </p>
+    </section>
+
+    <section>
+        <h2>8. Hosting dieser Webseite</h2>
+
+        <p>
+            Diese Webseite wird über GitHub Pages,
+            einen Dienst von GitHub, Inc.,
+            bereitgestellt.
+        </p>
+
+        <p>
+            Beim Aufruf der Webseite können
+            technisch erforderliche Verbindungsdaten,
+            insbesondere IP-Adressen und
+            Browserinformationen, durch den
+            Hostinganbieter verarbeitet werden.
+        </p>
+
+        <p>
+            Die Webseite verwendet nach dem
+            vorgesehenen Aufbau keine eigenen
+            Tracking-Skripte oder Analysewerkzeuge.
+        </p>
+
+        <p>
+            Weitere Informationen:
+            <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">
+                Datenschutzerklärung von GitHub
+            </a>
+        </p>
+    </section>
+
+    <section>
+        <h2>9. Google API Services</h2>
+
+        <p>
+            Die Nutzung von Informationen,
+            die über Google APIs erhalten werden,
+            unterliegt der
+            <a href="https://developers.google.com/terms/api-services-user-data-policy">
+                Google API Services User Data Policy
+            </a>
+            einschließlich der Anforderungen
+            zur eingeschränkten Datennutzung
+            (Limited Use).
+        </p>
+    </section>
+
+    <section>
+        <h2>10. Änderungen</h2>
+
+        <p>
+            Diese Datenschutzerklärung wird
+            aktualisiert, wenn sich die
+            Datenverarbeitung oder die verwendeten
+            Dienste wesentlich ändern.
+        </p>
+    </section>
+
+    <footer>
+        <a href="index.html">Zurück zur Startseite</a>
+        <p>© Jarvis AI Assistant</p>
+    </footer>
+
+</main>
 </body>
 </html>
